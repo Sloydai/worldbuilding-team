@@ -1,0 +1,17 @@
+{
+  "name": "sloyd-worldbuilding",
+  "owner": {
+    "name": "Sloyd",
+    "url": "https://www.sloyd.ai"
+  },
+  "metadata": {
+    "description": "Sloyd Worldbuilding Team: type a world, walk around in it."
+  },
+  "plugins": [
+    {
+      "name": "worldbuilding",
+      "source": "./",
+      "description": "Type a world. Walk around in it. Skybox + props via the Sloyd API, assembled into a walkable Three.js scene."
+    }
+  ]
+}
