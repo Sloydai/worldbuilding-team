@@ -1,0 +1,25 @@
+{
+  "name": "worldbuilding",
+  "displayName": "Worldbuilding Team",
+  "description": "The Sloyd Worldbuilding Team: five Claude skills that turn one sentence into an explorable 3D world. A 360 skybox and a set of props in one style, all generated with the Sloyd API, assembled into a walkable single-file Three.js scene.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Sloyd",
+    "url": "https://www.sloyd.ai"
+  },
+  "homepage": "https://github.com/Sloydai/worldbuilding-team",
+  "repository": "https://github.com/Sloydai/worldbuilding-team",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://www.sloyd.ai/privacy-policy",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": [
+    "sloyd",
+    "3d",
+    "skybox",
+    "worldbuilding",
+    "level-design",
+    "threejs",
+    "vr",
+    "environment-art"
+  ]
+}

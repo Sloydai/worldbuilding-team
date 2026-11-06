@@ -1,0 +1,269 @@
+{
+  "title": "Neon Rooftop",
+  "subtitle": "\"make me a cyberpunk rooftop at night I can walk around in\" · 1 skybox + 5 props, all generated with Sloyd",
+  "sky": {
+    "panorama": "assets/sky-panorama.webp",
+    "backgroundIntensity": 1,
+    "environmentIntensity": 0.9,
+    "rotationDeg": 0,
+    "placeholderTop": "#1a1030",
+    "placeholderHorizon": "#ff2bd6",
+    "placeholderBottom": "#0b1833"
+  },
+  "fog": {
+    "color": "#2a1840",
+    "density": 0.012
+  },
+  "exposure": 1.05,
+  "lights": {
+    "hemisphere": {
+      "sky": "#8a6bff",
+      "ground": "#1a1030",
+      "intensity": 0.5
+    },
+    "key": {
+      "color": "#18e0ff",
+      "intensity": 1.1,
+      "position": [
+        -12,
+        18,
+        -8
+      ]
+    }
+  },
+  "ground": {
+    "type": "rooftop",
+    "size": [
+      24,
+      24
+    ],
+    "color": "#2a2d33",
+    "roughness": 0.45,
+    "wetness": 0.6,
+    "parapetHeight": 1,
+    "edgeGlow": "#18e0ff"
+  },
+  "weather": {
+    "rain": true,
+    "rainCount": 6000
+  },
+  "player": {
+    "eyeHeight": 1.7,
+    "walkSpeed": 3.2,
+    "sprintSpeed": 6.5,
+    "radius": 0.35,
+    "spawn": [
+      0.5,
+      9.8
+    ],
+    "lookAt": [
+      5,
+      -7
+    ]
+  },
+  "props": [
+    {
+      "id": "water-tower",
+      "url": "assets/water-tower.glb",
+      "height": 8,
+      "color": "#5a6b8c",
+      "light": {
+        "color": "#ff2bd6",
+        "intensity": 40,
+        "distance": 18,
+        "offset": [
+          0,
+          5,
+          2
+        ]
+      },
+      "instances": [
+        {
+          "x": 6,
+          "z": -7.5,
+          "rotY": 200
+        }
+      ]
+    },
+    {
+      "id": "vending-machine",
+      "url": "assets/vending-machine.glb",
+      "height": 1.9,
+      "color": "#ffb347",
+      "light": {
+        "color": "#ffb347",
+        "intensity": 10,
+        "distance": 7,
+        "offset": [
+          0,
+          1.2,
+          1
+        ]
+      },
+      "instances": [
+        {
+          "x": -3.2,
+          "z": -0.8,
+          "rotY": 20
+        },
+        {
+          "x": -2.1,
+          "z": -1.1,
+          "rotY": 12
+        }
+      ]
+    },
+    {
+      "id": "hvac-unit",
+      "url": "assets/hvac-unit.glb",
+      "height": 1.4,
+      "color": "#3d4250",
+      "instances": [
+        {
+          "x": -10,
+          "z": 6.2,
+          "rotY": 90
+        },
+        {
+          "x": -10,
+          "z": 3.9,
+          "rotY": 90
+        },
+        {
+          "x": -10,
+          "z": 1.6,
+          "rotY": 92
+        },
+        {
+          "x": -2.5,
+          "z": -10.2,
+          "rotY": 0
+        },
+        {
+          "x": 0.2,
+          "z": -10.2,
+          "rotY": 0
+        },
+        {
+          "x": 8.6,
+          "z": 7.8,
+          "rotY": 300
+        }
+      ]
+    },
+    {
+      "id": "satellite-dish",
+      "url": "assets/satellite-dish.glb",
+      "height": 2.2,
+      "color": "#4a4f5c",
+      "instances": [
+        {
+          "x": -9.6,
+          "z": -9.4,
+          "rotY": 135
+        },
+        {
+          "x": 10,
+          "z": -1.2,
+          "rotY": 250
+        },
+        {
+          "x": 10.2,
+          "z": 9.6,
+          "rotY": 210
+        }
+      ]
+    },
+    {
+      "id": "crate-stack",
+      "url": "assets/crate-stack.glb",
+      "height": 1.2,
+      "color": "#3a5a7a",
+      "instances": [
+        {
+          "x": 2.6,
+          "z": 4.2,
+          "rotY": 30
+        },
+        {
+          "x": 4.2,
+          "z": -5.8,
+          "rotY": 120
+        },
+        {
+          "x": 7.9,
+          "z": -5.1,
+          "rotY": 60
+        },
+        {
+          "x": -6.4,
+          "z": 8.6,
+          "rotY": 160
+        },
+        {
+          "x": -5.6,
+          "z": -5.4,
+          "rotY": 300
+        },
+        {
+          "x": -0.4,
+          "z": -2.2,
+          "rotY": 75
+        }
+      ]
+    }
+  ],
+  "tour": {
+    "seconds": 28,
+    "points": [
+      [
+        0.5,
+        9.8,
+        4,
+        -7
+      ],
+      [
+        -0.5,
+        5,
+        -2.6,
+        -1
+      ],
+      [
+        -4.8,
+        2.6,
+        -2.6,
+        -1
+      ],
+      [
+        -6.5,
+        -3,
+        6,
+        -7.5
+      ],
+      [
+        0,
+        -6.5,
+        6,
+        -7.5
+      ],
+      [
+        3,
+        -2.5,
+        -12,
+        -14
+      ],
+      [
+        6.5,
+        4,
+        -3,
+        -1
+      ],
+      [
+        0.5,
+        9.6,
+        4,
+        -7
+      ]
+    ]
+  }
+}
